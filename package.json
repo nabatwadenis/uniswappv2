@@ -9,11 +9,11 @@
   ],
   "private": true,
   "scripts": {
-    "react-app:build": "yarn workspace @my-app/react-app build",
-    "react-app:eject": "yarn workspace @my-app/react-app eject",
-    "react-app:ipfs": "yarn workspace @my-app/react-app ipfs",
-    "react-app:start": "yarn workspace @my-app/react-app start",
-    "react-app:test": "yarn workspace @my-app/react-app test"
+    "react-app:build": "npm workspace @my-app/react-app build",
+    "react-app:eject": "npm workspace @my-app/react-app eject",
+    "react-app:ipfs": "npm workspace @my-app/react-app ipfs",
+    "react-app:start": "npm workspace @my-app/react-app start",
+    "react-app:test": "npm workspace @my-app/react-app test"
   },
   "workspaces": {
     "packages": [
